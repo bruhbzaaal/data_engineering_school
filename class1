@@ -1,0 +1,80 @@
+
+# import this
+# комментарий
+"""
+print('A', 'B', sep='*')
+print("Hello, world")
+var_name = input()
+num = int(input())
+print(var_name*num)
+"""
+
+"""
+import random
+
+a = random.randint(1, 10)
+b = 0
+c = 0
+while (a != b):
+    b = int(input())
+    c += 1
+    if (a == b):
+        print ("Верно! Количество попыток:" + str(c))
+    else:
+        if (a > b):
+            print("Неверно! Загаданное число больше введенного")
+        else:
+            print("Неверно! Загаданное число меньше введенного")
+"""
+
+#Evolve 1
+"""
+#Problem 1
+print("Задача 1")
+
+x = int(input())
+s = 0
+for i in range(11):
+    s += 1/x
+print(s)
+ """
+
+#Problem 2
+
+"""
+print("Задача 2")
+a1 = 1
+a2 = 1
+a3 = a1
+print(a1)
+print(a2)
+
+for i in range(6):
+    print(a1+a2)
+    a3 = a2
+    a2 = a2+a1
+    a1 = a3
+""" 
+
+"""
+#Problem 3
+
+print("Задача 3")
+
+num1 = 1
+num2 = 2
+num3 = num2
+den1 = 1
+den2 = 1
+den3 = den2
+i = 2
+while (i != 5):
+    i += 1
+    num3 = num2
+    num2 += num1
+    num1 = num3
+    den3 = den2
+    den2 += den1
+    den1 = den3
+print(str(num2) + "/" + str(den2))
+"""    
